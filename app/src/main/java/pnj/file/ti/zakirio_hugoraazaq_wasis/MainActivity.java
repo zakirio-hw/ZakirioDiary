@@ -75,8 +75,6 @@ public class MainActivity extends AppCompatActivity {
         });
 
         ActionBar ab = getSupportActionBar();
-        assert ab != null;
-        ab.setTitle("Zakirio Diary");
 
         listView = findViewById(R.id.fileList);
         // listBtn = findViewById(R.id.listBtn);
